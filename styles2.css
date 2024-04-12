@@ -1,0 +1,62 @@
+/* Reset default margin and padding */
+body, h1, h2, ul, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color:violet;
+    padding: 20px;
+    text-align: center;
+}
+
+.features {
+    background-color: #e9e9e9;
+    padding: 20px;
+}
+
+.features h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.features ul {
+    list-style-type: none;
+}
+
+.features ul li {
+    margin-bottom: 5px;
+}
+
+.cta {
+    background-color: #d3d3d3;
+    padding: 20px;
+    text-align: center;
+}
+
+.cta h2 {
+    margin-bottom: 10px;
+}
+
+.cta button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
